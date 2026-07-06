@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Footer = () => {
     return (
         <footer className="bg-[#120a07] text-white pt-12">
@@ -8,9 +10,11 @@ export const Footer = () => {
                     {/* Left - Logo */}
                     <div>
                         <div className="flex items-center gap-3 mb-4">
-                            <img
+                            <Image
                                 src="/devanshlogo.png"
                                 alt="Devansh Academy"
+                                width={56}
+                                height={56}
                                 className="w-14 h-14 object-contain"
                             />
                             <h2 className="text-2xl font-bold text-[#E2874B]">
@@ -37,8 +41,17 @@ export const Footer = () => {
                             <a href="#about" className="hover:text-[#E2874B] transition">
                                 About
                             </a>
+                            <a href="#courses" className="hover:text-[#E2874B] transition">
+                                Courses
+                            </a>
                             <a href="#champions" className="hover:text-[#E2874B] transition">
                                 Champions
+                            </a>
+                            <a href="#gallery" className="hover:text-[#E2874B] transition">
+                                Gallery
+                            </a>
+                            <a href="#feedback" className="hover:text-[#E2874B] transition">
+                                Feedback
                             </a>
                             <a href="#contact" className="hover:text-[#E2874B] transition">
                                 Contact
@@ -65,7 +78,7 @@ export const Footer = () => {
                             </a>
 
                             <p>
-                                Devang Chess Academy YMCA International House, 18, YMCA Rd, Mumbai Central,  Mumbai – 400008.
+                                Devang Chess Academy YMCA International House, 18, YMCA Rd, Mumbai Central, Mumbai - 400008.
                             </p>
                         </div>
 
@@ -162,7 +175,7 @@ export const Footer = () => {
 
             {/* Bottom */}
             <div className="border-t border-white/10 py-4 text-center text-gray-400 text-sm">
-                © {new Date().getFullYear()} Devang Chess Academy. All Rights Reserved.
+                Copyright {new Date().getFullYear()} Devang Chess Academy. All Rights Reserved.
             </div>
         </footer>
     );

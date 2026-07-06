@@ -1,6 +1,7 @@
 'use client';
 
-import vector from '/public/Vector.svg'
+import Image from "next/image";
+
 export const About = () => {
     return (
         <section id="about" className="bg-white scroll-mt-20">
@@ -16,9 +17,11 @@ export const About = () => {
 
                         {/* Image wrapper */}
                         <div className="relative z-10 p-4 md:p-6">
-                            <img
+                            <Image
                                 src="/knight.png"
                                 alt="About Us"
+                                width={480}
+                                height={480}
                                 className="w-70 md:w-105 lg:w-120 object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-105 -scale-x-100"
                             />
                         </div>
@@ -48,7 +51,7 @@ export const About = () => {
                         <p className="text-gray-600 text-left text-sm sm:text-base md:text-lg leading-7 md:leading-relaxed mb-6 md:mb-8 font-sans max-w-xl">
                             At Devang Academy, we are passionate about chess and dedicated to helping players of all levels improve their skills.
                             Our expert coaches provide personalized training programs tailored to your unique needs and goals.
-                            Whether you're a beginner or advanced player, we help you grow with structured learning and strategy-focused training.
+                            Whether you&apos;re a beginner or advanced player, we help you grow with structured learning and strategy-focused training.
                         </p>
 
                         {/* Feature points - Stabilized container */}

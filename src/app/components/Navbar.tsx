@@ -29,7 +29,10 @@ export const Navbar = () => {
                     <ul className="menu menu-sm dropdown-content mt-3 z-[100] p-3 shadow bg-[#1b110c] rounded-box w-52 text-white">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
                         <li><a href="#champions">Champions</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#feedback">Feedback</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -61,7 +64,10 @@ export const Navbar = () => {
                     {[
                         ["Home", "#home"],
                         ["About", "#about"],
+                        ["Courses", "#courses"],
                         ["Champions", "#champions"],
+                        ["Gallery", "#gallery"],
+                        ["Feedback", "#feedback"],
                         ["Contact", "#contact"],
                     ].map(([label, href]) => (
                         <li
