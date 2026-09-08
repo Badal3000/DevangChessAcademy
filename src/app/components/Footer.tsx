@@ -18,7 +18,7 @@ export const Footer = () => {
                                 className="w-14 h-14 object-contain"
                             />
                             <h2 className="text-2xl font-bold text-[#E2874B]">
-                                Devang Academy
+                                Devang Chess Academy
                             </h2>
                         </div>
 
@@ -75,6 +75,10 @@ export const Footer = () => {
                             </a>
                             <a href="tel:+918928190057">
                                 +91 8928190057
+                            </a>
+
+                             <a href="tel:+918928190057">
+                                +91 84528 19087
                             </a>
 
                             <p>
