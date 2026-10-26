@@ -143,35 +143,7 @@ export const Footer = () => {
                                 </svg>
                             </a>
 
-                            {/* Facebook
-                            <a
-                                href="https://facebook.com/devanshacademy"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="hover:text-[#E2874B] transition duration-300"
-                            >
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M9 8H6v4h3v12h5V12h3.64L18 8h-4V6.33c0-.95.19-1.33 1.11-1.33H18V0h-3.81C10.6 0 9 1.58 9 4.62V8z" />
-                                </svg>
-                            </a> */}
-
-                            {/* LinkedIn
-                            <a
-                                href="https://linkedin.com/company/devanshacademy"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="hover:text-[#E2874B] transition duration-300"
-                            >
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="currentColor"
-                                >
-                                    <path d="M4.98 3.5A2.5 2.5 0 1 1 2.5 6a2.5 2.5 0 0 1 2.48-2.5zM3 8h4v13H3zM9 8h3.83v1.77h.05A4.2 4.2 0 0 1 16.67 8c4 0 4.73 2.63 4.73 6.05V21h-4v-6.2c0-1.48 0-3.38-2.06-3.38s-2.38 1.61-2.38 3.27V21H9z" />
-                                </svg>
-                            </a> */}
+                            
                         </div>
                     </div>
                 </div>
@@ -179,7 +151,7 @@ export const Footer = () => {
 
             {/* Bottom */}
             <div className="border-t border-white/10 py-4 text-center text-gray-400 text-sm">
-                Copyright {new Date().getFullYear()} Devang Chess Academy. All Rights Reserved.
+                Copyright {new Date().getFullYear()} Devang Chess Academy. All Rights Reserved. <span> | Powered by <a href="https://www.velqo.co.in" target="_blank" rel="noopener noreferrer" className="text-[#E2874B] hover:underline">VELQO</a></span>
             </div>
         </footer>
     );
